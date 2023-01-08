@@ -7,9 +7,9 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_PASSWORD: "admin1234"
-      POSTGRES_USER: "admin"
-      POSTGRES_DB: "udagramdb"
+      POSTGRES_PASSWORD: "meowmeow123"
+      POSTGRES_USER: "postgres"
+      POSTGRES_DB: "udagram-db"
   reverseproxy:
     image: reverseproxy
     networks:
